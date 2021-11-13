@@ -1,0 +1,41 @@
+
+.title-app {
+  color: #B06AB3;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: 90%;
+  background-image: linear-gradient(to right, #4568DC, #B06AB3);
+  padding: 1.4rem 0;
+  border-radius: 48px;
+  text-align: center;
+  cursor: pointer;
+  transition: 200ms ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border: 1px solid #fff;
+}
+
+.btn-app:hover {
+  transform: translate(-50%, 100%) scale(.95);
+}
+
+.btn-app > a {
+  text-decoration: none;
+  vertical-align: middle;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-app > svg {
+  vertical-align: middle;
+  fill: #fff;
+}

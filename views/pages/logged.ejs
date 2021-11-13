@@ -1,0 +1,12 @@
+<%- include('base.ejs'); -%>
+<h1 class="user-title">Olá <strong><%= data.name %></strong> 👋 Bem-Vindo</h1>
+<div class="box-image">
+  <img src="<%= data.avatar_url %>" alt="">
+</div>
+<h2 class="user-data">Seus dados</h2>
+<p class="user-name -info">Login: <%= data.login %></p>
+<p class="user-email -info">Email: <%= data.email %></p>
+<p class="user-local -info">Local: <%= data.location %></p>
+<p class="user-followers -info">Followers: <%= data.followers %></p>
+<p class="user-following -info">Following: <%= data.following %></p>
+
